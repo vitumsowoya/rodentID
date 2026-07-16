@@ -1,0 +1,54 @@
+/home/vmsowoya/tools/quast-5.3.0/quast.py final.contigs.fa -o quast_output
+
+Version: 5.3.0, c3eb988a
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.14.2
+  CPUs number: 12
+
+Started: 2026-05-03 11:58:15
+
+Logging to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/quast.log
+NOTICE: Maximum number of threads is set to 3 (use --threads option to set it manually)
+
+CWD: /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out
+Main parameters: 
+  MODE: default, threads: 3, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  final.contigs.fa ==> final.contigs
+
+2026-05-03 11:58:15
+Running Basic statistics processor...
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 578, L50 = 1, auN = 541.8, Total length = 1078, GC % = 43.04, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-05-03 11:58:15
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-05-03 11:58:16
+RESULTS:
+  Text versions of total report are saved to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/report.html
+  Icarus (contig browser) is saved to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/icarus.html
+  Log is saved to /home/vmsowoya/mbewa_study/Version_2/ZA6L/assembly/megahit_out/quast_output/quast.log
+
+Finished: 2026-05-03 11:58:16
+Elapsed time: 0:00:00.601694
+NOTICEs: 2; WARNINGs: 2; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

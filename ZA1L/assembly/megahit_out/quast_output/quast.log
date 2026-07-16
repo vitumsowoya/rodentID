@@ -1,0 +1,27 @@
+/home/vmsowoya/tools/quast-5.3.0/quast.py final.contigs.fa -o quast_output
+
+Version: 5.3.0, c3eb988a
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.14.2
+  CPUs number: 12
+
+Started: 2026-05-03 10:10:18
+
+Logging to /home/vmsowoya/mbewa_study/Version_2/ZA1L/assembly/megahit_out/quast_output/quast.log
+NOTICE: Maximum number of threads is set to 3 (use --threads option to set it manually)
+
+CWD: /home/vmsowoya/mbewa_study/Version_2/ZA1L/assembly/megahit_out
+Main parameters: 
+  MODE: default, threads: 3, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+WARNING: Skipping final.contigs because it doesn't contain contigs >= 500 bp.
+
+
+ERROR! None of the assembly files contains correct contigs. Please, provide different files or decrease --min-contig threshold.

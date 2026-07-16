@@ -1,0 +1,17 @@
+*.fastq.gz
+*.fq.gz
+*.fa
+*.fasta
+*.bam
+*.bam.bai
+*.sam
+*.fastq
+*.bwt
+*.pac
+*.sa
+*.fastq.bwt
+*.fastq.sa
+*.fastq.pac
+*.ann
+*.fastq.ann
+*.Zone.Identifier

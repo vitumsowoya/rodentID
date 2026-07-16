@@ -1,0 +1,27 @@
+DEFINITION  seqnum=1;seqlen=363;seqhdr="k79_0 flag=1 multi=5.0000 len=363";version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             247..>363
+                     /note="ID=1_1;partial=01;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.419;conf=94.66;score=12.51;cscore=7.71;sscore=4.80;rscore=3.51;uscore=-1.54;tscore=2.83;"
+//
+DEFINITION  seqnum=2;seqlen=350;seqhdr="k79_4 flag=1 multi=7.0000 len=350";version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <3..308
+                     /note="ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.464;conf=68.32;score=3.34;cscore=0.12;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=3;seqlen=380;seqhdr="k79_2 flag=1 multi=3.5017 len=380";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(<2..79)
+                     /note="ID=3_1;partial=10;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.500;conf=96.64;score=14.61;cscore=3.27;sscore=11.34;rscore=7.06;uscore=0.66;tscore=4.27;"
+     CDS             complement(293..>379)
+                     /note="ID=3_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.448;conf=55.36;score=0.94;cscore=-2.28;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=4;seqlen=425;seqhdr="k79_1 flag=1 multi=6.0000 len=425";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..105
+                     /note="ID=4_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.429;conf=73.16;score=4.36;cscore=1.14;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=5;seqlen=365;seqhdr="k79_3 flag=1 multi=9.0000 len=365";version=Prodigal.v2.6.3;run_type=Metagenomic;model="12|Candidatus_Korarchaeum_cryptofilum_OPF8|A|49.0|11|0";gc_cont=49.00;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(<1..90)
+                     /note="ID=5_1;partial=10;start_type=ATG;rbs_motif=GGT;rbs_spacer=5bp;gc_cont=0.511;conf=98.94;score=19.73;cscore=19.92;sscore=-0.20;rscore=-0.39;uscore=-2.19;tscore=2.38;"
+//

@@ -1,0 +1,500 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: cleaned_10.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 769960
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 62 sequences with 1529 nucleotide sites
+Number of constant sites: 519 (= 33.9438% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 519 (= 33.9438% of all sites)
+Number of parsimony informative sites: 842
+Number of distinct site patterns: 1033
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+R4        -22326.056   44918.112 +    0.062   44943.663 +   0.0901   45627.317 +    0.887
+GTR+F+R4         -22321.340   44912.680 +    0.938   44939.040 +    0.909   45632.550 +   0.0648
+TIM2+F+R3        -22336.394   44934.788 - 1.48e-05   44959.544 - 3.21e-05   45633.329 -   0.0439
+GTR+F+R3         -22331.352   44928.704 - 0.000311   44954.255 - 0.000452   45637.909 -  0.00444
+TIM+F+R4         -22364.878   44995.756 - 8.56e-19   45021.307 - 1.24e-18   45704.961 - 1.22e-17
+TIM+F+R3         -22376.926   45015.852 -  3.7e-23   45040.608 - 8.01e-23   45714.392 -  1.1e-19
+TN+F+R4          -22376.923   45017.846 - 1.37e-23   45042.998 - 2.42e-23   45721.719 - 2.81e-21
+TIM3+F+R4        -22373.282   45012.563 - 1.92e-22   45038.114 - 2.79e-22   45721.768 - 2.74e-21
+TN+F+R3          -22389.276   45038.553 - 4.36e-28   45062.916 - 1.15e-27   45731.761 - 1.85e-23
+TIM3+F+R3        -22385.649   45033.297 - 6.03e-27   45058.053 -  1.3e-26   45731.838 - 1.78e-23
+TIM2+R4          -22441.321   45142.642 - 1.09e-50   45167.006 - 2.86e-50   45835.850 - 4.63e-46
+TIM2e+R4         -22441.349   45142.698 - 1.06e-50   45167.061 - 2.78e-50   45835.905 -  4.5e-46
+TIM2e+R4         -22441.349   45142.698 - 1.06e-50   45167.061 - 2.78e-50   45835.905 -  4.5e-46
+GTR+R4           -22438.877   45141.753 -  1.7e-50   45166.905 - 3.01e-50   45845.626 - 3.49e-48
+SYM+R4           -22438.989   45141.979 - 1.52e-50   45167.130 - 2.69e-50   45845.851 - 3.12e-48
+SYM+R4           -22438.989   45141.979 - 1.52e-50   45167.130 - 2.69e-50   45845.851 - 3.12e-48
+TIM2+R3          -22454.577   45165.155 - 1.41e-55   45188.744 - 5.45e-55   45847.698 - 1.24e-48
+TIM2e+R3         -22455.111   45166.223 - 8.24e-56   45189.811 -  3.2e-55   45848.766 - 7.26e-49
+TIM2e+R3         -22455.111   45166.223 - 8.24e-56   45189.811 -  3.2e-55   45848.766 - 7.26e-49
+TPM2u+F+R4       -22440.785   45145.571 - 2.51e-51   45170.723 - 4.46e-51   45849.443 - 5.17e-49
+TPM2u+F+R3       -22448.652   45157.303 - 7.12e-54   45181.667 - 1.88e-53   45850.511 - 3.03e-49
+TVM+F+R4         -22434.714   45137.428 - 1.47e-49   45163.382 - 1.75e-49   45851.966 - 1.47e-49
+GTR+R3           -22449.627   45159.254 - 2.69e-54   45183.617 - 7.07e-54   45852.462 - 1.14e-49
+TVM+F+R3         -22442.334   45148.669 - 5.34e-52   45173.820 - 9.48e-52   45852.541 -  1.1e-49
+SYM+R3           -22450.432   45160.865 -  1.2e-54   45185.228 - 3.16e-54   45854.073 - 5.11e-50
+SYM+R3           -22450.432   45160.865 -  1.2e-54   45185.228 - 3.16e-54   45854.073 - 5.11e-50
+K3Pu+F+R3        -22480.150   45220.299 - 1.49e-67   45244.663 - 3.92e-67   45913.507 - 6.35e-63
+K3Pu+F+R4        -22474.529   45213.057 - 5.57e-66   45238.209 - 9.89e-66   45916.930 - 1.15e-63
+TPM3u+F+R3       -22488.970   45237.939 -  2.2e-71   45262.302 -  5.8e-71   45931.147 - 9.38e-67
+HKY+F+R4         -22486.170   45234.341 - 1.33e-70   45259.096 - 2.88e-70   45932.881 - 3.94e-67
+HKY+F+R3         -22493.982   45245.965 - 3.98e-73   45269.939 - 1.27e-72   45933.840 - 2.44e-67
+TPM3u+F+R4       -22483.670   45231.340 - 5.97e-70   45256.492 - 1.06e-69   45935.213 - 1.23e-67
+TIM+R4           -22694.330   45648.661 - 1.43e-160   45673.024 - 3.77e-160   46341.869 - 6.09e-156
+TIMe+R4          -22694.399   45648.798 - 1.34e-160   45673.162 - 3.52e-160   46342.006 - 5.69e-156
+TIMe+R4          -22694.399   45648.798 - 1.34e-160   45673.162 - 3.52e-160   46342.006 - 5.69e-156
+TIM+R3           -22705.804   45667.607 - 1.1e-164   45691.196 - 4.27e-164   46350.151 - 9.69e-158
+TIMe+R3          -22706.428   45668.855 - 5.9e-165   45692.444 - 2.29e-164   46351.398 - 5.2e-158
+TIMe+R3          -22706.428   45668.855 - 5.9e-165   45692.444 - 2.29e-164   46351.398 - 5.2e-158
+TN+R4            -22714.025   45686.051 - 1.09e-168   45710.025 - 3.48e-168   46373.926 - 6.66e-163
+TNe+R4           -22714.565   45687.130 - 6.34e-169   45711.105 - 2.03e-168   46375.006 - 3.88e-163
+TNe+R4           -22714.565   45687.130 - 6.34e-169   45711.105 - 2.03e-168   46375.006 - 3.88e-163
+TIM3+R4          -22711.416   45682.831 - 5.44e-168   45707.194 - 1.43e-167   46376.039 - 2.32e-163
+TIM3e+R4         -22711.455   45682.910 - 5.23e-168   45707.273 - 1.38e-167   46376.118 - 2.23e-163
+TIM3e+R4         -22711.455   45682.910 - 5.23e-168   45707.273 - 1.38e-167   46376.118 - 2.23e-163
+TN+R3            -22725.988   45705.977 - 5.13e-173   45729.183 - 2.41e-172   46383.188 - 6.5e-165
+TIM3+R3          -22722.705   45701.410 - 5.03e-172   45724.999 - 1.95e-171   46383.953 - 4.43e-165
+TNe+R3           -22728.749   45711.497 - 3.24e-174   45734.703 - 1.52e-173   46388.708 - 4.11e-166
+TNe+R3           -22728.749   45711.497 - 3.24e-174   45734.703 - 1.52e-173   46388.708 - 4.11e-166
+TIM3e+R3         -22726.218   45708.435 - 1.5e-173   45732.024 - 5.81e-173   46390.979 - 1.32e-166
+TIM3e+R3         -22726.218   45708.435 - 1.5e-173   45732.024 - 5.81e-173   46390.979 - 1.32e-166
+TPM2u+R4         -22924.560   46107.119 - 4.01e-260   46131.094 - 1.28e-259   46794.995 - 2.45e-254
+TPM2+R4          -22924.597   46107.195 - 3.86e-260   46131.169 - 1.23e-259   46795.071 - 2.36e-254
+TPM2+R4          -22924.597   46107.195 - 3.86e-260   46131.169 - 1.23e-259   46795.071 - 2.36e-254
+TVM+R4           -22920.974   46103.948 - 1.96e-259   46128.704 - 4.23e-259   46802.489 - 5.79e-256
+TVMe+R4          -22921.022   46104.044 - 1.86e-259   46128.800 - 4.03e-259   46802.585 - 5.52e-256
+TVMe+R4          -22921.022   46104.044 - 1.86e-259   46128.800 - 4.03e-259   46802.585 - 5.52e-256
+TPM2+R3          -22935.713   46125.425 - 4.24e-264   46148.632 - 1.99e-263   46802.636 - 5.38e-256
+TPM2+R3          -22935.713   46125.425 - 4.24e-264   46148.632 - 1.99e-263   46802.636 - 5.38e-256
+TPM2u+R3         -22935.720   46125.441 - 4.21e-264   46148.647 - 1.98e-263   46802.651 - 5.34e-256
+TVM+R3           -22932.464   46122.929 - 1.48e-263   46146.903 - 4.73e-263   46810.805 - 9.05e-258
+TVMe+R3          -22932.540   46123.080 - 1.37e-263   46147.055 - 4.38e-263   46810.956 - 8.39e-258
+TVMe+R3          -22932.540   46123.080 - 1.37e-263   46147.055 - 4.38e-263   46810.956 - 8.39e-258
+K3Pu+R4          -23213.375   46684.751 -        0   46708.725 -        0   47372.627 -        0
+K3P+R4           -23213.423   46684.846 -        0   46708.821 -        0   47372.722 -        0
+K3P+R4           -23213.423   46684.846 -        0   46708.821 -        0   47372.722 -        0
+K3P+R3           -23221.738   46697.477 -        0   46720.683 -        0   47374.688 -        0
+K3P+R3           -23221.738   46697.477 -        0   46720.683 -        0   47374.688 -        0
+K3Pu+R3          -23221.760   46697.520 -        0   46720.726 -        0   47374.731 -        0
+HKY+R4           -23235.163   46726.327 -        0   46749.915 -        0   47408.870 -        0
+K2P+R4           -23235.824   46727.647 -        0   46751.236 -        0   47410.190 -        0
+K2P+R4           -23235.824   46727.647 -        0   46751.236 -        0   47410.190 -        0
+HKY+R3           -23244.558   46741.115 -        0   46763.943 -        0   47412.994 -        0
+TPM3u+R4         -23234.442   46726.883 -        0   46750.858 -        0   47414.759 -        0
+TPM3+R4          -23234.476   46726.952 -        0   46750.927 -        0   47414.828 -        0
+TPM3+R4          -23234.476   46726.952 -        0   46750.927 -        0   47414.828 -        0
+K2P+R3           -23245.490   46742.980 -        0   46765.808 -        0   47414.859 -        0
+K2P+R3           -23245.490   46742.980 -        0   46765.808 -        0   47414.859 -        0
+TPM3u+R3         -23242.849   46739.698 -        0   46762.905 -        0   47416.909 -        0
+TPM3+R3          -23242.936   46739.873 -        0   46763.079 -        0   47417.083 -        0
+TPM3+R3          -23242.936   46739.873 -        0   46763.079 -        0   47417.083 -        0
+F81+F+R3         -23664.024   47584.049 -        0   47607.637 -        0   48266.592 -        0
+F81+F+R4         -23659.066   47578.132 -        0   47602.495 -        0   48271.340 -        0
+F81+R3           -24278.844   48807.688 -        0   48830.139 -        0   49474.234 -        0
+F81+R4           -24271.926   48797.852 -        0   48821.058 -        0   49475.063 -        0
+JC+R4            -24273.874   48801.747 -        0   48824.953 -        0   49478.958 -        0
+JC+R4            -24273.874   48801.747 -        0   48824.953 -        0   49478.958 -        0
+JC+R3            -24281.884   48813.768 -        0   48836.220 -        0   49480.314 -        0
+JC+R3            -24281.884   48813.768 -        0   48836.220 -        0   49480.314 -        0
+JC+R5            -24272.618   48803.237 -        0   48827.211 -        0   49491.112 -        0
+JC+I+R3          -24287.980   48827.960 -        0   48850.788 -        0   49499.839 -        0
+JC+I+R4          -24280.985   48817.970 -        0   48841.558 -        0   49500.513 -        0
+JC+G4            -24360.175   48964.351 -        0   48985.696 -        0   49614.900 -        0
+JC+I+G4          -24359.411   48964.822 -        0   48986.533 -        0   49620.703 -        0
+JC+I+R2          -24370.447   48988.894 -        0   49010.974 -        0   49650.108 -        0
+JC+R2            -24377.682   49001.363 -        0   49023.074 -        0   49657.245 -        0
+JC+I             -26278.332   52800.664 -        0   52822.009 -        0   53451.213 -        0
+JC               -26965.915   54173.830 -        0   54194.814 -        0   54819.047 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+R4
+
+Rate parameter R:
+
+  A-C: 2.3239
+  A-G: 5.6686
+  A-T: 2.3239
+  C-G: 1.0000
+  C-T: 13.5796
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3044
+  pi(C) = 0.2681
+  pi(G) = 0.1297
+  pi(T) = 0.2979
+
+Rate matrix Q:
+
+  A   -0.5754    0.1748    0.2063    0.1942
+  C    0.1985     -1.37    0.0364     1.135
+  G    0.4842   0.07523    -0.643   0.08358
+  T    0.1985     1.022    0.0364    -1.256
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.5187,0.08209) (0.1253,0.7253) (0.1466,1.649) (0.2095,2.983)
+
+ Category  Relative_rate  Proportion
+  1         0.08209        0.5187
+  2         0.7253         0.1253
+  3         1.649          0.1466
+  4         2.983          0.2095
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -22312.9634 (s.e. 627.6821)
+Unconstrained log-likelihood (without tree): -9937.1038
+Number of free parameters (#branches + #model parameters): 133
+Akaike information criterion (AIC) score: 44891.9267
+Corrected Akaike information criterion (AICc) score: 44917.4780
+Bayesian information criterion (BIC) score: 45601.1318
+
+Total tree length (sum of branch lengths): 22.5008
+Sum of internal branch lengths: 16.7079 (74.2549% of tree length)
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'TO17L' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--TO17L
+|
+|        +--TO9L
+|     +--| (76)
+|     |  |                                +--Mus_baoulei
+|     |  |                             +--| (100)
+|     |  |                             |  |  +--Mus_setulosus
+|     |  |                             |  +--| (98)
+|     |  |                             |     +--Mus_minutoides
+|     |  |                          +--| (95)
+|     |  |                          |  |  +--Mus_spretus
+|     |  |                          |  +--| (100)
+|     |  |                          |     +--Mus_musculus_molossinus
+|     |  |                       +--| (53)
+|     |  |                       |  |        +--Calomys_musculinus
+|     |  |                       |  |     +--| (100)
+|     |  |                       |  |     |  +--Calomys_laucha
+|     |  |                       |  |  +--| (100)
+|     |  |                       |  |  |  +--Oryzomys_couesi
+|     |  |                       |  +--| (99)
+|     |  |                       |     +--Peromyscus_leucopus
+|     |  |                    +--| (68)
+|     |  |                    |  |        +--Otomys_unisulcatus
+|     |  |                    |  |     +--| (80)
+|     |  |                    |  |     |  +--Hybomys_planifrons
+|     |  |                    |  |  +--| (71)
+|     |  |                    |  |  |  |     +--Micaelamys_namaquensis
+|     |  |                    |  |  |  |  +--| (64)
+|     |  |                    |  |  |  |  |  |  +--Lemniscomys_striatus
+|     |  |                    |  |  |  |  |  +--| (93)
+|     |  |                    |  |  |  |  |     +--Lemniscomys_bellieri
+|     |  |                    |  |  |  +--| (77)
+|     |  |                    |  |  |     +--Dasymys_incomtus
+|     |  |                    |  +--| (90)
+|     |  |                    |     +--Arvicanthis_niloticus
+|     |  |                 +--| (89)
+|     |  |                 |  |                                                                                        +--Calomys_callosus_1
+|     |  |                 |  |                                +-------------------------------------------------------| (100)
+|     |  |                 |  |                                |                                                       +**Calomys_callosus_2
+|     |  |                 |  |                             +--| (62)
+|     |  |                 |  |                             |  +**Crocidura_grandiceps
+|     |  |                 |  |                          +--| (81)
+|     |  |                 |  |                          |  +--Crocidura_theresae
+|     |  |                 |  |                       +--| (81)
+|     |  |                 |  |                       |  +--Crocidura_mariquensis
+|     |  |                 |  |                    +--| (72)
+|     |  |                 |  |                    |  +--Crocidura_hirta
+|     |  |                 |  |                 +--| (75)
+|     |  |                 |  |                 |  +--Crocidura_olivieri
+|     |  |                 |  |              +--| (81)
+|     |  |                 |  |              |  +--Suncus_varilla
+|     |  |                 |  |           +--| (81)
+|     |  |                 |  |           |  +--Sorex_araneus
+|     |  |                 |  |        +--| (85)
+|     |  |                 |  |        |  |     +--Elephantulus_brachyrhynchus
+|     |  |                 |  |        |  |  +--| (98)
+|     |  |                 |  |        |  |  |  +--Elephantulus_fuscus
+|     |  |                 |  |        |  +--| (96)
+|     |  |                 |  |        |     +--Petrodromus_tetradactylus
+|     |  |                 |  |     +--| (72)
+|     |  |                 |  |     |  |  +--Beamys_hindei
+|     |  |                 |  |     |  +--| (93)
+|     |  |                 |  |     |     |  +--Steatomys_pratensis
+|     |  |                 |  |     |     +--| (100)
+|     |  |                 |  |     |        +--Steatomys_krebsii
+|     |  |                 |  |  +--| (70)
+|     |  |                 |  |  |  +--Gerbilliscus_brantsii
+|     |  |                 |  +--| (78)
+|     |  |                 |     |  +--Lophuromys_chrysopus
+|     |  |                 |     +--| (77)
+|     |  |                 |        |           +--Rattus_losea
+|     |  |                 |        |        +--| (84)
+|     |  |                 |        |        |  |     +--Rattus_rattus_1
+|     |  |                 |        |        |  |  +--| (99)
+|     |  |                 |        |        |  |  |  +--Rattus_tanezumi
+|     |  |                 |        |        |  +--| (94)
+|     |  |                 |        |        |     +--Rattus_rattus_2
+|     |  |                 |        |     +--| (95)
+|     |  |                 |        |     |  |  +--Rattus_argentiventer
+|     |  |                 |        |     |  +--| (87)
+|     |  |                 |        |     |     +--Rattus_exulans
+|     |  |                 |        |  +--| (91)
+|     |  |                 |        |  |  +--Rattus_norvegicus
+|     |  |                 |        +--| (97)
+|     |  |                 |           +--Rattus_lutreolus
+|     |  |              +--| (97)
+|     |  |              |  +--Apodemus_flavicollis
+|     |  |           +--| (79)
+|     |  |           |  |     +--Praomys_jacksoni
+|     |  |           |  |  +--| (79)
+|     |  |           |  |  |  |  +--Myomys_daltoni
+|     |  |           |  |  |  +--| (79)
+|     |  |           |  |  |     +--Praomys_rostratus
+|     |  |           |  +--| (48)
+|     |  |           |     |     +--Hylomyscus_simus
+|     |  |           |     |  +--| (100)
+|     |  |           |     |  |  +--Hylomyscus_pamfi
+|     |  |           |     +--| (41)
+|     |  |           |        +--Myomys_verreauxi
+|     |  |        +--| (100)
+|     |  |        |  +--Montemys_delectorum
+|     |  |     +--| (100)
+|     |  |     |  +--Mastomys_erythroleucus
+|     |  |  +--| (97)
+|     |  |  |  +--Mastomys_natalensis_1
+|     |  +--| (80)
+|     |     +--Mastomys_natalensis_2
+|  +--| (78)
+|  |  |           +--TO8L
+|  |  |        +--| (90)
+|  |  |        |  +--PE1L
+|  |  |     +--| (72)
+|  |  |     |  +--TO3L
+|  |  |  +--| (56)
+|  |  |  |  +**PE7L
+|  |  +--| (63)
+|  |     |  +--TO6L
+|  |     +--| (56)
+|  |        +--PE4L
++--| (70)
+|  +--TO4L
+|
++--PE8L
+
+Tree in newick format:
+
+(TO17L:0.1979797044,(((TO9L:0.1662955667,(((((((((((Mus_baoulei:0.0916018550,(Mus_setulosus:0.0981265578,Mus_minutoides:0.1101441783)98:0.0227825362)100:0.0519604693,(Mus_spretus:0.0526261502,Mus_musculus_molossinus:0.0672790835)100:0.0597146407)95:0.0291306449,(((Calomys_musculinus:0.1313995278,Calomys_laucha:0.1350781568)100:0.0728411080,Oryzomys_couesi:0.1236634869)100:0.1201135280,Peromyscus_leucopus:0.1570150577)99:0.1063438365)53:0.0173726649,(((Otomys_unisulcatus:0.1379369176,Hybomys_planifrons:0.1216868994)80:0.0269532439,((Micaelamys_namaquensis:0.1418725804,(Lemniscomys_striatus:0.0746477053,Lemniscomys_bellieri:0.1173236468)93:0.0396693469)64:0.0068493935,Dasymys_incomtus:0.1428731263)77:0.0287324169)71:0.0080386573,Arvicanthis_niloticus:0.1337001275)90:0.0301027937)68:0.0173038919,((((((((((((Calomys_callosus_1:0.0027257745,Calomys_callosus_2:0.0000018966)100:14.4136999100,Crocidura_grandiceps:0.0000022628)62:0.0175668259,Crocidura_theresae:0.0619312819)81:0.0715882305,Crocidura_mariquensis:0.1082964564)81:0.0519557840,Crocidura_hirta:0.1262525713)72:0.0249245419,Crocidura_olivieri:0.1955140918)75:0.0153113078,Suncus_varilla:0.1488356314)81:0.1532504173,Sorex_araneus:0.1087780038)81:0.0815851213,((Elephantulus_brachyrhynchus:0.1327863889,Elephantulus_fuscus:0.1478090586)98:0.0911900627,Petrodromus_tetradactylus:0.2120155722)96:0.0903163453)85:0.0439485738,(Beamys_hindei:0.1424704799,(Steatomys_pratensis:0.0415354018,Steatomys_krebsii:0.0503026237)100:0.2152796515)93:0.0631575984)72:0.0359552296,Gerbilliscus_brantsii:0.2918576513)70:0.0361329756,(Lophuromys_chrysopus:0.1984458403,((((Rattus_losea:0.0373705723,((Rattus_rattus_1:0.0196401957,Rattus_tanezumi:0.0284257857)99:0.0089866175,Rattus_rattus_2:0.0401370524)94:0.0138671161)84:0.0127642419,(Rattus_argentiventer:0.0702125933,Rattus_exulans:0.0775394463)87:0.0142024762)95:0.0355345980,Rattus_norvegicus:0.0767753697)91:0.0072332484,Rattus_lutreolus:0.0857405871)97:0.0429724667)77:0.0404729652)78:0.0171046976)89:0.0164574332,Apodemus_flavicollis:0.1328214941)97:0.0302963117,((Praomys_jacksoni:0.0927269970,(Myomys_daltoni:0.0854509226,Praomys_rostratus:0.0692817529)79:0.0171291743)79:0.0172354851,((Hylomyscus_simus:0.0529383557,Hylomyscus_pamfi:0.0475786609)100:0.0849745116,Myomys_verreauxi:0.1137445064)41:0.0173302296)48:0.0137955897)79:0.0164426533,Montemys_delectorum:0.1011001337)100:0.0659725957,Mastomys_erythroleucus:0.0472780029)100:0.0321711075,Mastomys_natalensis_1:0.0130554575)97:0.0059355496,Mastomys_natalensis_2:0.0213525615)80:0.0063804093)76:0.0092483760,((((TO8L:0.0359506019,PE1L:0.0767823640)90:0.0184146886,TO3L:0.0775377391)72:0.0293386055,PE7L:0.0000025602)56:0.0186963246,(TO6L:0.1623349680,PE4L:0.0526772514)56:0.0105106394)63:0.0069049537)78:0.0501243210,TO4L:0.0022538545)70:0.0036531796,PE8L:0.0013356019);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -22329.619141
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--TO17L
+|
+|        +--TO9L
+|     +--| (76)
+|     |  |                                +--Mus_baoulei
+|     |  |                             +--| (100)
+|     |  |                             |  |  +--Mus_setulosus
+|     |  |                             |  +--| (98)
+|     |  |                             |     +--Mus_minutoides
+|     |  |                          +--| (95)
+|     |  |                          |  |  +--Mus_spretus
+|     |  |                          |  +--| (100)
+|     |  |                          |     +--Mus_musculus_molossinus
+|     |  |                       +--| (53)
+|     |  |                       |  |        +--Calomys_musculinus
+|     |  |                       |  |     +--| (100)
+|     |  |                       |  |     |  +--Calomys_laucha
+|     |  |                       |  |  +--| (100)
+|     |  |                       |  |  |  +--Oryzomys_couesi
+|     |  |                       |  +--| (99)
+|     |  |                       |     +--Peromyscus_leucopus
+|     |  |                    +--| (68)
+|     |  |                    |  |        +--Otomys_unisulcatus
+|     |  |                    |  |     +--| (80)
+|     |  |                    |  |     |  +--Hybomys_planifrons
+|     |  |                    |  |  +--| (71)
+|     |  |                    |  |  |  |     +--Micaelamys_namaquensis
+|     |  |                    |  |  |  |  +--| (64)
+|     |  |                    |  |  |  |  |  |  +--Lemniscomys_striatus
+|     |  |                    |  |  |  |  |  +--| (93)
+|     |  |                    |  |  |  |  |     +--Lemniscomys_bellieri
+|     |  |                    |  |  |  +--| (77)
+|     |  |                    |  |  |     +--Dasymys_incomtus
+|     |  |                    |  +--| (90)
+|     |  |                    |     +--Arvicanthis_niloticus
+|     |  |                 +--| (89)
+|     |  |                 |  |                                                                                       +--Calomys_callosus_1
+|     |  |                 |  |                                +------------------------------------------------------| (100)
+|     |  |                 |  |                                |                                                      +--Calomys_callosus_2
+|     |  |                 |  |                             +--| (62)
+|     |  |                 |  |                             |  +--Crocidura_grandiceps
+|     |  |                 |  |                          +--| (81)
+|     |  |                 |  |                          |  +--Crocidura_theresae
+|     |  |                 |  |                       +--| (81)
+|     |  |                 |  |                       |  +--Crocidura_mariquensis
+|     |  |                 |  |                    +--| (72)
+|     |  |                 |  |                    |  +--Crocidura_hirta
+|     |  |                 |  |                 +--| (75)
+|     |  |                 |  |                 |  +--Crocidura_olivieri
+|     |  |                 |  |              +--| (81)
+|     |  |                 |  |              |  +--Suncus_varilla
+|     |  |                 |  |           +--| (81)
+|     |  |                 |  |           |  +--Sorex_araneus
+|     |  |                 |  |        +--| (85)
+|     |  |                 |  |        |  |     +--Elephantulus_brachyrhynchus
+|     |  |                 |  |        |  |  +--| (98)
+|     |  |                 |  |        |  |  |  +--Elephantulus_fuscus
+|     |  |                 |  |        |  +--| (96)
+|     |  |                 |  |        |     +--Petrodromus_tetradactylus
+|     |  |                 |  |     +--| (72)
+|     |  |                 |  |     |  |  +--Beamys_hindei
+|     |  |                 |  |     |  +--| (93)
+|     |  |                 |  |     |     |  +--Steatomys_pratensis
+|     |  |                 |  |     |     +--| (100)
+|     |  |                 |  |     |        +--Steatomys_krebsii
+|     |  |                 |  |  +--| (70)
+|     |  |                 |  |  |  +--Gerbilliscus_brantsii
+|     |  |                 |  +--| (78)
+|     |  |                 |     |  +--Lophuromys_chrysopus
+|     |  |                 |     +--| (77)
+|     |  |                 |        |           +--Rattus_losea
+|     |  |                 |        |        +--| (84)
+|     |  |                 |        |        |  |     +--Rattus_rattus_1
+|     |  |                 |        |        |  |  +--| (99)
+|     |  |                 |        |        |  |  |  +--Rattus_tanezumi
+|     |  |                 |        |        |  +--| (94)
+|     |  |                 |        |        |     +--Rattus_rattus_2
+|     |  |                 |        |     +--| (95)
+|     |  |                 |        |     |  |  +--Rattus_argentiventer
+|     |  |                 |        |     |  +--| (87)
+|     |  |                 |        |     |     +--Rattus_exulans
+|     |  |                 |        |  +--| (91)
+|     |  |                 |        |  |  +--Rattus_norvegicus
+|     |  |                 |        +--| (97)
+|     |  |                 |           +--Rattus_lutreolus
+|     |  |              +--| (97)
+|     |  |              |  +--Apodemus_flavicollis
+|     |  |           +--| (79)
+|     |  |           |  |     +--Praomys_jacksoni
+|     |  |           |  |  +--| (79)
+|     |  |           |  |  |  |  +--Myomys_daltoni
+|     |  |           |  |  |  +--| (79)
+|     |  |           |  |  |     +--Praomys_rostratus
+|     |  |           |  +--| (48)
+|     |  |           |     |     +--Hylomyscus_simus
+|     |  |           |     |  +--| (100)
+|     |  |           |     |  |  +--Hylomyscus_pamfi
+|     |  |           |     +--| (41)
+|     |  |           |        +--Myomys_verreauxi
+|     |  |        +--| (100)
+|     |  |        |  +--Montemys_delectorum
+|     |  |     +--| (100)
+|     |  |     |  +--Mastomys_erythroleucus
+|     |  |  +--| (97)
+|     |  |  |  +--Mastomys_natalensis_1
+|     |  +--| (80)
+|     |     +--Mastomys_natalensis_2
+|  +--| (78)
+|  |  |           +--TO8L
+|  |  |        +--| (90)
+|  |  |        |  +--PE1L
+|  |  |     +--| (72)
+|  |  |     |  +--TO3L
+|  |  |  +--| (56)
+|  |  |  |  +--PE7L
+|  |  +--| (63)
+|  |     |  +--TO6L
+|  |     +--| (56)
+|  |        +--PE4L
++--| (70)
+|  +--TO4L
+|
++--PE8L
+
+
+Consensus tree in newick format: 
+
+(TO17L:0.1966733235,(((TO9L:0.1651670385,(((((((((((Mus_baoulei:0.0909822097,(Mus_setulosus:0.0974866550,Mus_minutoides:0.1094074916)98:0.0226736640)100:0.0516271772,(Mus_spretus:0.0523301880,Mus_musculus_molossinus:0.0668525368)100:0.0592785710)95:0.0289431159,(((Calomys_musculinus:0.1306059885,Calomys_laucha:0.1340582433)100:0.0722865707,Oryzomys_couesi:0.1226929419)100:0.1190414383,Peromyscus_leucopus:0.1557781740)99:0.1055418318)53:0.0172744727,(((Otomys_unisulcatus:0.1369912869,Hybomys_planifrons:0.1207411054)80:0.0268077451,((Micaelamys_namaquensis:0.1408406383,(Lemniscomys_striatus:0.0742576165,Lemniscomys_bellieri:0.1165154924)93:0.0393944115)64:0.0068426820,Dasymys_incomtus:0.1420310935)77:0.0285205008)71:0.0080172440,Arvicanthis_niloticus:0.1327789914)90:0.0299010729)68:0.0172056889,((((((((((((Calomys_callosus_1:0.0027075433,Calomys_callosus_2:0.0000021318)100:9.9999985513,Crocidura_grandiceps:0.0000022433)62:0.0175304843,Crocidura_theresae:0.0615094640)81:0.0712638606,Crocidura_mariquensis:0.1072165383)81:0.0518766170,Crocidura_hirta:0.1253199701)72:0.0247745609,Crocidura_olivieri:0.1938667697)75:0.0155041554,Suncus_varilla:0.1475996886)81:0.1518739650,Sorex_araneus:0.1079195526)81:0.0809016408,((Elephantulus_brachyrhynchus:0.1318640933,Elephantulus_fuscus:0.1466615579)98:0.0905618040,Petrodromus_tetradactylus:0.2102423882)96:0.0894845147)85:0.0436251812,(Beamys_hindei:0.1414214239,(Steatomys_pratensis:0.0414201572,Steatomys_krebsii:0.0498939440)100:0.2133593360)93:0.0626510980)72:0.0356242120,Gerbilliscus_brantsii:0.2893275308)70:0.0359769861,(Lophuromys_chrysopus:0.1969347144,((((Rattus_losea:0.0371613750,((Rattus_rattus_1:0.0195373258,Rattus_tanezumi:0.0282719052)99:0.0089469367,Rattus_rattus_2:0.0399100796)94:0.0137970985)84:0.0127144098,(Rattus_argentiventer:0.0698026644,Rattus_exulans:0.0770581234)87:0.0141325890)95:0.0353321929,Rattus_norvegicus:0.0762881953)91:0.0072105618,Rattus_lutreolus:0.0851878475)97:0.0426579777)77:0.0401960511)78:0.0170073690)89:0.0163878868,Apodemus_flavicollis:0.1318631049)97:0.0300767830,((Praomys_jacksoni:0.0921496728,(Myomys_daltoni:0.0849334265,Praomys_rostratus:0.0688689869)79:0.0170210924)79:0.0171376662,((Hylomyscus_simus:0.0525691870,Hylomyscus_pamfi:0.0473776119)100:0.0843629044,Myomys_verreauxi:0.1129564646)41:0.0172777765)48:0.0137313920)79:0.0163597066,Montemys_delectorum:0.1004124868)100:0.0655220302,Mastomys_erythroleucus:0.0470195709)100:0.0319729640,Mastomys_natalensis_1:0.0129865410)97:0.0059058652,Mastomys_natalensis_2:0.0212329664)80:0.0063844449)76:0.0091445714,((((TO8L:0.0357305991,PE1L:0.0763583745)90:0.0182735171,TO3L:0.0770830512)72:0.0291594392,PE7L:0.0000026925)56:0.0185823385,(TO6L:0.1611746098,PE4L:0.0523676680)56:0.0104693318)63:0.0069888459)78:0.0497042920,TO4L:0.0022571281)70:0.0035904118,PE8L:0.0013626854);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t cleaned_10.fa.treefile -m "TIM2{2.32392,5.66863,13.5796}+F{0.304386,0.268066,0.129696,0.297852}+R4{0.518654,0.08209,0.125279,0.725321,0.146601,1.64852,0.209467,2.9832}" --length 1529
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s cleaned_10.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s cleaned_10.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun May  3 09:54:59 2026
+Total CPU time used: 444.217244 seconds (0h:7m:24s)
+Total wall-clock time used: 216.3891555 seconds (0h:3m:36s)
+

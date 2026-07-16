@@ -1,0 +1,25 @@
+DEFINITION  seqnum=1;seqlen=222;seqhdr="k59_5 flag=1 multi=2.0000 len=222";version=Prodigal.v2.6.3;run_type=Metagenomic;model="24|Ignisphaera_aggregans_DSM_17230|A|35.7|11|1";gc_cont=35.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(124..>222)
+                     /note="ID=1_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.364;conf=75.60;score=4.92;cscore=1.70;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=2;seqlen=309;seqhdr="k59_4 flag=1 multi=5.9920 len=309";version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <3..>308
+                     /note="ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=88.17;score=8.74;cscore=7.13;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
+//
+DEFINITION  seqnum=3;seqlen=293;seqhdr="k59_3 flag=1 multi=3.0000 len=293";version=Prodigal.v2.6.3;run_type=Metagenomic;model="29|Methylacidiphilum_infernorum_V4|B|45.5|11|0";gc_cont=45.50;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..114
+                     /note="ID=3_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.474;conf=79.00;score=5.76;cscore=2.54;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=4;seqlen=256;seqhdr="k59_1 flag=1 multi=6.7919 len=256";version=Prodigal.v2.6.3;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(<3..>254)
+                     /note="ID=4_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.417;conf=97.26;score=15.53;cscore=13.92;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
+//
+DEFINITION  seqnum=5;seqlen=283;seqhdr="k59_2 flag=1 multi=2.7321 len=283";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             194..>283
+                     /note="ID=5_1;partial=01;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.444;conf=89.17;score=9.17;cscore=1.89;sscore=7.28;rscore=8.84;uscore=-1.22;tscore=-0.34;"
+//

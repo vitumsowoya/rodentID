@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "cytb_db",
+  "dbtype": "Nucleotide",
+  "db-version": 5,
+  "description": "cytb_9.fa",
+  "number-of-letters": 57375,
+  "number-of-sequences": 61,
+  "last-updated": "2026-05-03T09:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 58130,
+  "bytes-to-cache": 15487,
+  "files": [
+    "cytb_db.ndb",
+    "cytb_db.nhr",
+    "cytb_db.nin",
+    "cytb_db.not",
+    "cytb_db.nsq",
+    "cytb_db.ntf",
+    "cytb_db.nto"
+  ]
+}

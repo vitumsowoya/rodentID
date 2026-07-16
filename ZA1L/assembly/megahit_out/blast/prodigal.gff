@@ -1,0 +1,16 @@
+DEFINITION  seqnum=1;seqlen=272;seqhdr="k59_0 flag=1 multi=4.7371 len=272";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+//
+DEFINITION  seqnum=2;seqlen=324;seqhdr="k59_1 flag=1 multi=2.5585 len=324";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(229..>324)
+                     /note="ID=2_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.344;conf=81.06;score=6.32;cscore=3.10;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=3;seqlen=496;seqhdr="k59_3 flag=1 multi=3.7941 len=496";version=Prodigal.v2.6.3;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             85..393
+                     /note="ID=3_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.375;conf=92.65;score=11.02;cscore=6.29;sscore=4.74;rscore=0.92;uscore=-0.38;tscore=4.21;"
+//
+DEFINITION  seqnum=4;seqlen=255;seqhdr="k59_2 flag=1 multi=2.2143 len=255";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+//

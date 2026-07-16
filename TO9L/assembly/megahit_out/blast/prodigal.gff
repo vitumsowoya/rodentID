@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=397;seqhdr="k59_2 flag=1 multi=4.9408 len=397";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(<1..60)
+                     /note="ID=1_1;partial=10;start_type=ATG;rbs_motif=TTAA;rbs_spacer=14bp;gc_cont=0.350;conf=92.73;score=11.08;cscore=1.23;sscore=9.85;rscore=3.87;uscore=0.58;tscore=5.40;"
+//
+DEFINITION  seqnum=2;seqlen=468;seqhdr="k59_1 flag=1 multi=6.0905 len=468";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+//
+DEFINITION  seqnum=3;seqlen=544;seqhdr="k59_3 flag=1 multi=4.9711 len=544";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..510
+                     /note="ID=3_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.406;conf=89.82;score=9.47;cscore=6.25;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             474..>542
+                     /note="ID=3_2;partial=01;start_type=ATG;rbs_motif=TACAA;rbs_spacer=13bp;gc_cont=0.449;conf=73.97;score=4.54;cscore=0.79;sscore=3.76;rscore=4.32;uscore=-5.96;tscore=5.40;"
+//

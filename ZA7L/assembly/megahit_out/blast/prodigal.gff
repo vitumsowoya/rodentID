@@ -1,0 +1,8 @@
+DEFINITION  seqnum=1;seqlen=243;seqhdr="k79_0 flag=1 multi=4.0000 len=243";version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+//
+DEFINITION  seqnum=2;seqlen=262;seqhdr="k79_1 flag=1 multi=5.9454 len=262";version=Prodigal.v2.6.3;run_type=Metagenomic;model="45|Treponema_pallidum_Nichols|B|52.8|11|1";gc_cont=52.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             182..>262
+                     /note="ID=2_1;partial=01;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.605;conf=92.25;score=10.78;cscore=2.67;sscore=8.11;rscore=12.11;uscore=-2.30;tscore=-1.70;"
+//

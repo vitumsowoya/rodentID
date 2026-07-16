@@ -1,0 +1,23 @@
+Assembly	final.contigs
+# contigs (>= 0 bp)	3
+# contigs (>= 1000 bp)	0
+# contigs (>= 5000 bp)	0
+# contigs (>= 10000 bp)	0
+# contigs (>= 25000 bp)	0
+# contigs (>= 50000 bp)	0
+Total length (>= 0 bp)	1409
+Total length (>= 1000 bp)	0
+Total length (>= 5000 bp)	0
+Total length (>= 10000 bp)	0
+Total length (>= 25000 bp)	0
+Total length (>= 50000 bp)	0
+# contigs	1
+Largest contig	544
+Total length	544
+GC (%)	41.18
+N50	544
+N90	544
+auN	544.0
+L50	1
+L90	1
+# N's per 100 kbp	0.00

@@ -1,0 +1,17 @@
+DEFINITION  seqnum=1;seqlen=356;seqhdr="k99_0 flag=1 multi=7.0000 len=356";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(<2..115)
+                     /note="ID=1_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.561;conf=91.87;score=10.55;cscore=4.47;sscore=6.08;rscore=3.28;uscore=0.02;tscore=2.78;"
+//
+DEFINITION  seqnum=2;seqlen=536;seqhdr="k99_2 flag=1 multi=4.0000 len=536";version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <2..109
+                     /note="ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.407;conf=50.49;score=0.09;cscore=-3.13;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             418..>534
+                     /note="ID=2_2;partial=01;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.427;conf=97.01;score=15.13;cscore=7.32;sscore=7.81;rscore=10.65;uscore=-0.48;tscore=-4.13;"
+//
+DEFINITION  seqnum=3;seqlen=475;seqhdr="k99_1 flag=1 multi=17.0000 len=475";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(193..>474)
+                     /note="ID=3_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.415;conf=96.11;score=13.95;cscore=10.73;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//

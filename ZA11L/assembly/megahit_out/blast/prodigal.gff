@@ -1,0 +1,10 @@
+DEFINITION  seqnum=1;seqlen=202;seqhdr="k39_2 flag=1 multi=2.0000 len=202";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(<1..84)
+                     /note="ID=1_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.500;conf=80.74;score=6.24;cscore=1.29;sscore=4.95;rscore=0.02;uscore=-0.47;tscore=5.40;"
+//
+DEFINITION  seqnum=2;seqlen=513;seqhdr="k39_5 flag=1 multi=8.0105 len=513";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..483
+                     /note="ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.366;conf=88.44;score=8.85;cscore=5.63;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
